@@ -9,7 +9,13 @@
 }
 
 .color{
-    background-color: blue;
+    background-color: #CAD9E1;
+
+}
+
+.grupos{
+    background-color: palevioletred;
+    margin-right: 20px;
 }
 
 .fondo-img{
@@ -22,8 +28,41 @@
     max-height: 100%;
 }
 
+.grupo{
+    margin-bottom: 200px;
+    padding: 2px;
+}
+
+.titulo-grupo{
+    font-size: 20px;
+    font-weight: bold;
+    color: #0b1920;
+}
+
+.div-equipo{
+    background-color: #d4e3eb;
+    margin-top: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 8px;
+
+}
+
+.img-grupo{
+    width: 40px;
+    height: 30px;
+}
+
+.nombre-equipo{
+    font-size: 18px;
+    color: #0b1920;
+    padding-left: 22px;
+}
+
+/*Media querys*/
+
 @media (max-width: 768px) { 
     .color{
-        background-color: brown;
+        background-color: rgba(18, 17, 48, 0.308);
     }
 }
