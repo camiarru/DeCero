@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar-color{
+    background-color: rgba(18, 17, 48, 0.568);
+}
+
+.color{
+    background-color: blue;
+}
+
+.fondo-img{
+    background-image: url(Imagenes/BannerOk.jpg);
+    background-size: cover;
+}
+
+.img-banner{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+@media (max-width: 768px) { 
+    .color{
+        background-color: brown;
+    }
+}
